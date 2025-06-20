@@ -42,9 +42,9 @@ const Topbar = ({ setIsSidebar, auth, onLogout }) => {
     const routeTitles = {
       "/": "Dashboard",
       "/team": "Team Management",
-      "/contacts": "Scientific Instrumentations",
-      "/contacts1": "PT BKI Certification",
-      "/contacts2": "System Integration",
+      "/contacts": "PT SCI ",
+      "/contacts1": "PT BKI ",
+      "/contacts2": "PT SI",
       "/invoices": "Invoices",
       "/form": "Form",
       "/chatbot": "ChatBot",
