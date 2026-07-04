@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env DISABLE_ESLINT_PLUGIN=true GENERATE_SOURCEMAP=false react-scripts build",
     "preview": "serve -s build",
     "server": "node backend/server.js",
     "dev": "concurrently \"npm run server\" \"npm start\"",
@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
     "nodemon": "^3.0.1"
   }
 }
